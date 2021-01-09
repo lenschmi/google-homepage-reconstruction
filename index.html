@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Google</title>
+        <style>
+            .center{
+                text-align: center;
+            }
+
+            .button{
+                font-family: arial, sans-serif;
+                font-size: 14px;
+                color: rgb(60, 64, 67);
+                background-color: rgb(248, 249, 250);
+                height: 36px;
+                width: 128px;
+                border-width: 1px;
+                border-radius: 4px;
+                border-color: rgb(248, 249, 250);
+                border-style: solid;
+                margin: 11px 4px 11px 4px;
+            }
+
+            .search-bar{
+                width: 438px;
+                height: 34px;
+            }
+
+            .text-a{
+                font-family: arial, sans-serif;
+                font-size: 13px;
+                padding-left: 15px;
+            }
+
+            .text-a{
+                opacity: 0.75;
+            }
+
+            #top-bar{
+                position: relative;
+                top: 16px;
+            }
+
+            #logo{
+                padding-top: 109px;
+                margin-top: 89px;
+            }
+        
+            #search-form{
+                padding-top: 6px;
+                margin: 0px 158px 0px 158px;
+            }
+        
+            #search-buttons{
+                padding-top: 18px;
+                height: 70px;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+        
+        </style>
+    </head>
+
+   <body>
+        <div id="top-bar">
+            <div id="left-links">
+                <a class="text-a">About</a>
+                <a class="text-a">Store</a>
+            </div>
+            <div id="right-links">
+                <a class="text-a">Gmail</a>
+                <a class="text-a">Images</a>
+            </div>
+        </div>
+        <div id="logo" class="center">
+            <img id="standardLogo" src=
+            "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </img>
+        </div>
+        <div id="search-form" class="center">
+            <form>
+                <div id="search-bar">
+                    <input class="search-bar" type="text" maxLength="2048">
+                </div>
+                <div id="search-buttons">
+                    <button class="button" type="button">Google Search</button>
+                    <button class="button" type="button">I'm Feeling Lucky</button>
+                </div>  
+            </form>
+        </div>
+        <div class="center">
+            <text class="text-a">Google offered in: <a style="color:blue">Français</a></text>
+        </div>
+    </body>
+
+</html>
