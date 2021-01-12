@@ -75,11 +75,6 @@
     background-image: url("images/app-drawer-black.png");
 }
 
-#logo{
-    padding-top: 109px;
-    margin-top: 89px;
-}
-
 #search-bar-full{
     width: 474px;
     border-color: rgb(223, 225, 229);
@@ -129,6 +124,8 @@
 #search-buttons{
     padding-top: 18px;
     height: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 #french-link{
@@ -151,14 +148,19 @@
 #bottom-links{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #left-bottom{
     margin-left: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 #right-bottom{
     margin-right: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 body{
@@ -171,14 +173,17 @@ header{
     justify-content: space-between;
     position: relative;
     top: 16px;
-    min-width: 574px;
+    min-width: 474px;
 }
 
 main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
